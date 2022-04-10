@@ -5,7 +5,10 @@ const katzDeli = ["Ada", "Grace", "Kent"];
 function line(katzDeli) {
   const lane = katzDeli.map(function (customer, index) {
     return `${index + 1}. ${customer}`;
+
   });
+
+
   if (lane) {
     console.log(`The line is currently: ` + deliLine.join(" "));
   } else {
